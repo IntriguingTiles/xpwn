@@ -5,6 +5,7 @@ FIND_LIBRARY(CRYPTO_LIBRARIES crypto
       PATHS
       /usr/lib
       /usr/local/lib
+      /usr/local/opt/openssl@1.1/lib
    )
 
 IF(NOT ZLIB_FOUND)

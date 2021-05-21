@@ -7,6 +7,7 @@ FIND_LIBRARY(CRYPTO_LIBRARIES crypto
       PATHS
       /usr/lib
       /usr/local/lib
+      /usr/local/opt/openssl@1.1/lib
       ${CMAKE_FIND_ROOT_PATH}/lib
       ${CMAKE_FIND_ROOT_PATH}/local/lib
    )
